@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo Da Memória</title>
+
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>JOGO DA MEMÓRIA - JS</h2>
+      <div class="game game-js"></div>
+      <button class="reset" onclick="window.location.reload()">
+        RESET GAME
+      </button>
+    </div>
+
+    <div class="container">
+      <h2>JOGO DA MEMÓRIA - TS</h2>
+      <div class="game game-ts"></div>
+      <button class="reset" onclick="window.location.reload()">
+        RESET GAME
+      </button>
+    </div>
+
+    <script defer src="./ts/dist/engine.js"></script>
+    <script defer src="./js/src/engine.js"></script>
+  </body>
+</html>
